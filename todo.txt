@@ -1,0 +1,24 @@
+add buttons
+
+    order cab
+    events
+    staff attendance
+    moja express way
+
+return button that has been created
+
+eg
+if ordercab has been clicked.
+    reply with order 
+    
+
+
+request:
+    1. check if the numbber has a session in redis
+        search = redis where -> number is variable phine
+        if not search:
+            create thesession, generate session ID, dive a timeToLive of 1hour
+
+
+        
+
